@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Inputs Alerts</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="app.js"></script>
+    </head>
+
+    <body>
+        <div>
+            <table>
+                <tr>
+                    <td>
+                        <input type="text" id="InputA" />
+                    </td>
+                    <td>
+                        <button onclick="write()">Button1</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="InputB" />
+                    </td>
+                    <td>
+                        <button onclick="check()">Button2</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <select id="InputC">
+                            <option value="click">Click Aqui!</option>
+                            <option value="volvo">Volvo</option>
+                            <option value="saab">Saab</option>
+                            <option value="mercedes">Mercedes</option>
+                            <option value="audi">Audi</option>
+                        </select>
+                    </td>
+                    <td>
+                        <button onclick="read()">Boton3</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <form id="InputD">
+                            <input type="radio" id="1" name="gender" value="radio1">Option1<br>
+                            <input type="radio" id="2" name="gender" value="radio2">Option2<br>
+                            <input type="radio" id="3" name="gender" value="radio3">Option3<br>
+                        </form>
+                    </td>
+                    <td>
+                        <button onClick="points()">Boton4</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+body 
+{
+    background: rgb(204, 116, 113);
+    color: rgb(92, 17, 86);
+}
+
+table 
+{
+    margin: 40px 50px;
+    background: rgba(216, 64, 4, 0.8);
+    width: 400px;
+    padding: 50px;
+    border: solid rgb(109, 226, 99);
+    border-radius: 5px;
+    outline: 5px ridge rgb(32, 178, 170);
+}
